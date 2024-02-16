@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="style/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c91892ab8b.js" crossorigin="anonymous"></script>
     <title>Booki</title>
 </head>
 
@@ -19,49 +19,29 @@
 
 <main>
     <section>
-        <div>
-            <h1>
-                Trouvez votre hébergement pour des vacances de rêve
-            </h1>
-            <p>
-                En plein centre ville ou en pleine nature
-            </p>
-        </div>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
         <div class="searchbar">
-            <i class="fa fa-map-marker"></i>
+            <button class="loc"><i class="fas fa-map-marker"></i></button>
             <input class="search" type="text" name="search" placeholder="Marseille, France">
             <button class="rechercher">Rechercher</button>
         </div>
-        <div class="Filtres">
-            <div>
-                <h2>
-                    Filtres
-                </h2>
-            </div>
-            <div>
-                <i class="fa fa-money-bill-wave"></i>
-                <p>
-                    Economique
-                </p>
-            </div>
-            <div>
-                <i class="fas fa-child"> </i>
-                <p>
-                    Familial
-                </p>
-            </div>
-            <div>
-                <i class="fas fa-heart"></i>
-                <p>
-                    Romantique
-                </p>
-            </div>
-            <div>
-                <i class="fas fa-dog"></i>
-                <p>Animaux autorisés</p>
-            </div>
 
+        <div class="filtres">
+            <h2>Filtres</h2>
+            <div class="econ">
+                <button class="btn"><i class="fas fa-money-bill-wave"></i></button>
+                <p class="eco">Economique</p>
+            </div>
+            
+            <button class="btn"><i class="fas fa-child"></i></button>
+            <p class="fam">Familial</p>
+            <button class="btn"><i class="fas fa-heart"></i></button>
+            <p class="rom">Romantique</p>
+            <button class="btn"><i class="fas fa-dog"></i></button>
+            <p class="ani">Animaux autorisés</p>
         </div>
+
     </section>
 </main>
 

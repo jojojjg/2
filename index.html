@@ -1,35 +1,69 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="style/index.css">
-    <title>Agence de voyage Booki</title>
-  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Booki</title>
+</head>
 
-  <body>
-    <nav>
-      <div>
-        <img src="photo/logo.png" alt="logo">
-      </div>
-      <ul>
-        <li class="active"><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
-      </ul>
-    </nav>
+<body>
+<header>
+    <div class="pheader">
+        <img src="images/logo/Booki.png" alt="logo">
+        <a href="#">Hébergements</a>
+        <a href="#">Activitées</a>
+    </div>
+</header>
 
+<main>
     <section>
-      <div>
-        <img src="photo/passport.jpg" alt="passport">
-        <img src="photo/airport.jpg" alt="airport">
-      </div>
-      <div>
-        <img src="photo/newyork.jpg" alt="new york">
-        <img src="photo/japan.jpg" alt="japan">
-        <img src="photo/paris.jpg" alt="paris">
-      </div>
+        <div>
+            <h1>
+                Trouvez votre hébergement pour des vacances de rêve
+            </h1>
+            <p>
+                En plein centre ville ou en pleine nature
+            </p>
+        </div>
+        <div class="searchbar">
+            <i class="fa fa-map-marker"></i>
+            <input class="search" type="text" name="search" placeholder="Marseille, France">
+            <button class="rechercher">Rechercher</button>
+        </div>
+        <div class="Filtres">
+            <div>
+                <h2>
+                    Filtres
+                </h2>
+            </div>
+            <div>
+                <i class="fa fa-money-bill-wave"></i>
+                <p>
+                    Economique
+                </p>
+            </div>
+            <div>
+                <i class="fas fa-child"> </i>
+                <p>
+                    Familial
+                </p>
+            </div>
+            <div>
+                <i class="fas fa-heart"></i>
+                <p>
+                    Romantique
+                </p>
+            </div>
+            <div>
+                <i class="fas fa-dog"></i>
+                <p>Animaux autorisés</p>
+            </div>
+
+        </div>
     </section>
-  </body>
+</main>
+
+</body>
 </html>

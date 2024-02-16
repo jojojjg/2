@@ -1,39 +1,58 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    /* bloque le nav */
-    position: fixed;
-    top: 0;
-    width: 100%;
+* {
+  margin-left: 10px;
+}
 
-  }
-  
-  li {
-    float: left;
-    border-right: 1px solid #bbb;
-    /* Add a gray right border to all list items, except the last item (last-child) */
-  }
-  
-li:last-child {
-    border-right: none; /* pour ne pas afficher la bordure à droite */
-  }
+/*****header******/
+.pheader {
+  display: grid;
+  grid-template-columns: 1fr 0.1fr 0.08fr;
+  align-items: center;
+  margin-top: 20px;
+}
 
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
+.pheader img {
+  width: 200px;
+}
 
-  .active {
-    background-color: #04AA6D;
-  }
+.pheader a {
+  text-decoration: none;
+  color: black;
+}
+
+.pheader a:hover {
+  color: blue;
+}
+
+.fas {
+  color: blue;
+}
+
+/******Searchbar*****/
+.searchbar {
+  display: grid;
+  grid-template-columns: 0fr 0.1fr 0fr;
+  align-items: center;
+}
+
+.fa-map-marker {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #deebff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.search {
+  height: 50px;
+  border: none;
+  background-color: #f5f6f8;
+}
+.rechercher {
+  color: white;
+  background-color: #0059ff;
+  height: 50px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

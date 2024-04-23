@@ -1,109 +1,57 @@
+/* GENERALE */
 
-/*****header******/
-.pheader {
-  display: grid;
-  grid-template-columns: 1fr 0.1fr 0.08fr;
+html,body {
+  font-family: Raleway;
+}
+.flexCentre {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin-top: 20px;
+}
+.flexAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.pheader img {
-  width: 200px;
+/* Nav Générale */
+.sizeNav {
+  height: 100px;
+}
+/* Logo Nav */
+.sizeLogo {
+  width: 120px;
+  height: 50px;
+}
+.margeLogo {
+  margin-bottom: 7px;
 }
 
-.pheader a {
-  text-decoration: none;
-  color: black;
+/* Liens Nav */
+.sizeLiens {
+  width: 45%;
 }
-
-.pheader a:hover {
+.colorLiens13 {
   color: blue;
 }
-
-
-/******Searchbar*****/
-.searchbar {
-  display: grid;
-  grid-template-columns: 0fr 0.1fr 0fr;
+.colorLiens2 {
+  color: black;
 }
-
-.loc {
-
-  align-items: center;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  background-color: #deebff;
-  width: 50px;
-  height: 50px;
-  font-size: 16px;
-  border: none;
+.decorationNone {
+  text-decoration: none;
 }
-
-.search {
-  height: 50px;
-  border: none;
-  background-color: #f5f6f8;
+.sizeLien {
+  width: 140px;
+  height: 99px;
 }
-.rechercher {
-  color: white;
-  background-color: #0059ff;
-  height: 50px;
-  border: none;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+.bordureNav {
+  border-top: 1px solid blue;
 }
-
-/******Filtres***********/
-
-.filtres {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-right: 20px;
-  gap: 20px;
-}
-
-.btn {
-  background-color: #0059ff;
-  border: none;
-  color: white;
-  font-size: 16px;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-
-.eco, .fam, .rom, .ani {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.filtres .econ {
-  display: inline;
-}
-
-/*********************/
-.filtres2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: aquamarine;
-  width: 240px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.eco2 {
-  display: inline;
-  height: 40px;
-  width: 180px;
-  border: none;
-  
-}
-
-.btn2 {
-  height: 40px;
-  width: 60px;
-  border: none;
-  border-radius: 50%;
+.bordureNav23 {
+  border-top: 1px solid transparent;
 }
